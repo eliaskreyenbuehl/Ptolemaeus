@@ -7796,7 +7796,7 @@
 	"thumbnail": {
 		"width": 304,
 		"height": 439,
-		"@id": "https://www.e-rara.ch/zuz/i3f/v21/25511562/full/304/0/default.jpg",
+		"@id": "https://content.staatsbibliothek-berlin.de/dc/86344203X-0225/4442,2464,1455,1148/full/0/default.jpg",
 		"@type": "dctypes:Image",
 		"format": "image/jpeg"
 	},
@@ -7807,40 +7807,28 @@
 			"label": "Titel"
 		},
 		{
-			"value": "Ptolemaeus, Claudius [100-178]",
-			"label": "Autor"
+			"label": "Titelvariante",
+			"value": "Cosmographia "
+		},
+		{
+			"label": "Titelvariante",
+			"value": "Geographia"
 		},
 		{
 			"value": "Impressvm Vlme ; Per Ingeniosvm Virvm Leonardvm Hol Prefati Oppidi Civis  ; Opvs Donni Nicolai Germani Secvndvm Ptolemevm Finit ;  Anno M CCCC LXXXII, Avgusti Vero Kalendas XVII ",
 			"label": "Impressum"
 		},
 		{
-			"value": "1 Atlas ([69] Bl.) : mehrfarbige Karten ; 43 cm (2°)",
-			"label": "Umfang Exemplar ZB"
+			"label": "Textgrundlage",
+			"value": "Klaudios Ptolemaios: Geographike hyphegesis [= Einführung in die 'darstellende' Erdkunde]"
 		},
 		{
-			"value": "Latein",
-			"label": "Sprache"
+			"value": "Ptolemaeus, Claudius [100-178]",
+			"label": "Autor"
 		},
 		{
-			"value": "Versch. Massstäbe (W 180°-E 180°/N 90°-S 90°)",
-			"label": "Kartendaten"
-		},
-		{
-			"value": "HC 13539; BMC II, 538; BSB-Ink P-859.",
-			"label": "Bibliografische Referenz"
-		},
-		{
-			"value": "Zentralbibliothek Zürich, 2.1: b ; Staatsbibliothek zu Berlin, 2° Inc 2640 ",
-			"label": "Besitzende Institutionen"
-		},
-		{
-			"value": "https://doi.org/10.3931/e-rara-88925\t",
-			"label": "Persistent Identifier ZB"
-		},
-		{
-			"label": "Persistent Identifier SBB",
-			"value": "http://resolver.staatsbibliothek-berlin.de/SBB0001D9BD00000000"
+			"label": "Übersetzer",
+			"value": "Jacobus Angelus de Scarperia [ca. 1360-1411]"
 		},
 		{
 			"label": "Kartograf",
@@ -7851,42 +7839,48 @@
 			"value": "Johannes aus Armsheim"
 		},
 		{
-			"label": "Umfang Exemplar SBB",
-			"value": "182 Bl. u. 32 Karten"
-		},
-		{
 			"label": "Drucker und Typograph",
 			"value": "Lienhart Holl [Todesjahr nach 1492]"
-		},
-		{
-			"label": "Übersetzer",
-			"value": "Jacobus Angelus de Scarperia [ca. 1360-1411]"
-		},
-		{
-			"label": "Textgrundlage",
-			"value": "Klaudios Ptolemaios: Geographike hyphegesis [= Einführung in die 'darstellende' Erdkunde]"
-		},
-		{
-			"label": "Titelvariante",
-			"value": "Geographia"
 		},
 		{
 			"label": "Widmungsempfänger",
 			"value": "Papst Paul II. [1417-1471]"
 		},
 		{
-			"label": "Titelvariante",
-			"value": "Cosmographia "
-		}
+			"value": "Latein",
+			"label": "Sprache"
+		},
+		{
+			"value": "Versch. Massstäbe (W 180°-E 180°/N 90°-S 90°)",
+			"label": "Kartendaten"
+		},
+		{
+			"value": "Zentralbibliothek Zürich, 2.1: b ; Staatsbibliothek zu Berlin, 2° Inc 2640 ",
+			"label": "Besitzende Institutionen"
+		},
+		{
+			"value": "1 Atlas ([69] Bl.) : mehrfarbige Karten ; 43 cm (2°)",
+			"label": "Umfang Exemplar ZB"
+		},
+		{
+			"value": "https://doi.org/10.3931/e-rara-88925\t",
+			"label": "Persistent Identifier ZB"
+		},
+		{
+			"label": "Umfang Exemplar SBB",
+			"value": "182 Bl. u. 32 Karten"
+		},
+		{
+			"label": "Persistent Identifier SBB",
+			"value": "http://resolver.staatsbibliothek-berlin.de/SBB0001D9BD00000000"
+		},
 	],
-	"@id": "https://www.e-rara.ch/zuz/i3f/v20/25479828/manifest",
+	"@id": "https://raw.githubusercontent.com/ylvaZB/Ptolemaeus/main/Ptolomaeus_Cosmographia_Ulm_1482_Rekonstruktion_manifest5.json",
 	"@type": "sc:Manifest",
 	"seeAlso": {
-		"format": "application/xml",
-		"@id": "https://www.e-rara.ch/zuz/oai?verb=GetRecord&metadataPrefix=mets&identifier=25479828",
-		"label": "METS"
+		"format": "application/xml"
 	},
 	"description": {
-		"@value": "Ptolomaeus Atlas 1482 und die Rekonstruktion gestohlener Welten: Ein im Rahmen eines CAS Informations- und Datenmanagement umgesetztes Projekt mit dem Ziel, die Möglichkeiten die IIIF bieten, auszuloten und zu visualisieren.\nDie digitale Reproduktion der Zürcher Atlas, aus dem Ende 70er Anfang 80er Jahre, 15 Karten geraubt wurden, wird mit Seiten der digitalen Reproduktion Berlins vervollständigt. Exemplarisch werden in Annotationen Erkenntnisse / Erläuterungen zur \"Cosmographia nach Claudius Ptolomaeus, hrsg. von Nicolaus Germanus, Ulm 16. Juli 1482\" festgehalten.\n"
+		"@value": "Ptolomaeus Atlas 1482 und die Rekonstruktion gestohlener Welten: Ein im Rahmen eines CAS Informations- und Datenmanagement umgesetztes Projekt mit dem Ziel, die Möglichkeiten die IIIF bieten auszuloten und zu visualisieren.\nDie digitale Reproduktion des Zürcher Atlas, aus dem Ende 70er Anfang 80er Jahre, 15 Karten geraubt wurden, wird mit Seiten der digitalen Reproduktion Berlins vervollständigt. Exemplarisch werden in Annotationen Erkenntnisse und Erläuterungen zur \"Cosmographia nach Claudius Ptolomaeus, hrsg. von Nicolaus Germanus, Ulm 16. Juli 1482\" festgehalten.\n"
 	}
 }
