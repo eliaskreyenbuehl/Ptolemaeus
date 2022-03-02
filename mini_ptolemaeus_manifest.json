@@ -1,0 +1,295 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://acf770ec-cb6e-4b37-8079-c84117ddd55c",
+	"@type": "sc:Manifest",
+	"label": "Some Pages from Cosmographia / Claudius Ptolemaeus, from ZB Zürich and SBB Berlin.",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://ed338f39-48e7-45af-99ab-0a08cc7e4a3f",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://e0a1ecd8-c681-4baf-a4a5-cdcb75e64c50",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 10400,
+					"width": 7200,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6d72d773-6cf9-43e1-a1d6-ee4c249306c9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://www.e-rara.ch/zuz/i3f/v21/25511562/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-rara.ch/zuz/i3f/v21/25511562",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"baseUriRedirect",
+												"cors",
+												"jsonldMediaType",
+												"mirroring",
+												"regionByPct",
+												"regionByPx",
+												"regionSquare",
+												"rotationArbitrary",
+												"sizeAboveFull",
+												"sizeByConfinedWh",
+												"sizeByDistortedWh",
+												"sizeByH",
+												"sizeByPct",
+												"sizeByW",
+												"sizeByWh"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg"
+											]
+										}
+									]
+								},
+								"height": 10400,
+								"width": 7200
+							},
+							"on": "http://e0a1ecd8-c681-4baf-a4a5-cdcb75e64c50"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://13c7b03f-4bec-4b94-8ba5-d886747c4386",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 10400,
+					"width": 7200,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a2a25439-5de6-4735-acaa-e8c5967bc1d6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://www.e-rara.ch/zuz/i3f/v20/25511565/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-rara.ch/zuz/i3f/v20/25511565",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"baseUriRedirect",
+												"cors",
+												"jsonldMediaType",
+												"mirroring",
+												"regionByPct",
+												"regionByPx",
+												"regionSquare",
+												"rotationArbitrary",
+												"sizeAboveFull",
+												"sizeByConfinedWh",
+												"sizeByDistortedWh",
+												"sizeByH",
+												"sizeByPct",
+												"sizeByW",
+												"sizeByWh"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg"
+											]
+										}
+									]
+								},
+								"height": 10400,
+								"width": 7200
+							},
+							"on": "http://13c7b03f-4bec-4b94-8ba5-d886747c4386"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://91ebedae-727f-41ed-889d-340f6cb2201b",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 5400,
+					"width": 7003,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8b795633-aca9-4a47-b69a-347c5d538aaf",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ngcs-chula.staatsbibliothek-berlin.de/dc/86344203X-0210/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ngcs-chula.staatsbibliothek-berlin.de/dc/86344203X-0210",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"png",
+												"webp",
+												"tif"
+											],
+											"qualities": [
+												"color",
+												"gray"
+											],
+											"supports": [
+												"canonicalLinkHeader",
+												"rotationArbitrary",
+												"profileLinkHeader",
+												"http://example.com/feature/"
+											]
+										}
+									]
+								},
+								"height": 5400,
+								"width": 7003
+							},
+							"on": "http://91ebedae-727f-41ed-889d-340f6cb2201b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://8cd7f85b-e5d0-4fe7-8298-511d40358026",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 5400,
+					"width": 7211,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8278149b-f412-4639-ae91-4fbc61a4f3b3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ngcs-chula.staatsbibliothek-berlin.de/dc/86344203X-0213/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ngcs-chula.staatsbibliothek-berlin.de/dc/86344203X-0213",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"png",
+												"webp",
+												"tif"
+											],
+											"qualities": [
+												"color",
+												"gray"
+											],
+											"supports": [
+												"canonicalLinkHeader",
+												"rotationArbitrary",
+												"profileLinkHeader",
+												"http://example.com/feature/"
+											]
+										}
+									]
+								},
+								"height": 5400,
+								"width": 7211
+							},
+							"on": "http://8cd7f85b-e5d0-4fe7-8298-511d40358026"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fa544732-8fd4-4bb4-8988-5ea1db7d04bf",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 5400,
+					"width": 7226,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f677541d-1a72-4a40-bf34-b2364eabb0b8",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ngcs-chula.staatsbibliothek-berlin.de/dc/86344203X-0216/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ngcs-chula.staatsbibliothek-berlin.de/dc/86344203X-0216",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"png",
+												"webp",
+												"tif"
+											],
+											"qualities": [
+												"color",
+												"gray"
+											],
+											"supports": [
+												"canonicalLinkHeader",
+												"rotationArbitrary",
+												"profileLinkHeader",
+												"http://example.com/feature/"
+											]
+										}
+									]
+								},
+								"height": 5400,
+								"width": 7226
+							},
+							"on": "http://fa544732-8fd4-4bb4-8988-5ea1db7d04bf"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
